@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5173/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="./CIVE580 Midterm_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>green-lens</title>
+  <style type="text/css" data-vite-dev-id="/Users/ameliaklapprodt/green-lens/src/index.css">*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mb-12 {
+  margin-bottom: 3rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
+}
+.mt-16 {
+  margin-top: 4rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.mt-6 {
+  margin-top: 1.5rem;
+}
+.block {
+  display: block;
+}
+.grid {
+  display: grid;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.w-full {
+  width: 100%;
+}
+.max-w-3xl {
+  max-width: 48rem;
+}
+.max-w-4xl {
+  max-width: 56rem;
+}
+.max-w-6xl {
+  max-width: 72rem;
+}
+.gap-6 {
+  gap: 1.5rem;
+}
+.rounded-2xl {
+  border-radius: 1rem;
+}
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+.border {
+  border-width: 1px;
+}
+.border-l-4 {
+  border-left-width: 4px;
+}
+.border-green-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(21 128 61 / var(--tw-border-opacity, 1));
+}
+.bg-green-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+.from-green-50 {
+  --tw-gradient-from: #f0fdf4 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(240 253 244 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.to-blue-100 {
+  --tw-gradient-to: #dbeafe var(--tw-gradient-to-position);
+}
+.p-3 {
+  padding: 0.75rem;
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.p-8 {
+  padding: 2rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.text-blue-800 {
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity, 1));
+}
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity, 1));
+}
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+}
+.text-green-900 {
+  --tw-text-opacity: 1;
+  color: rgb(20 83 45 / var(--tw-text-opacity, 1));
+}
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+body {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+</style></head>
+  <body data-new-gr-c-s-check-loaded="14.1275.0" data-gr-ext-installed="">
+    <div id="root"><div class="min-h-screen bg-gradient-to-br from-green-50 to-blue-100 p-8"><header class="text-center mb-12"><h1 class="text-5xl font-bold text-green-900">The Green Lens</h1><p class="mt-4 text-lg text-gray-700 max-w-3xl mx-auto">Rainfall-induced slope instability is driven by increased pore water pressure, reducing effective stress and shear strength. This dashboard visualizes how rainfall influences Factor of Safety over time.</p></header><div class="max-w-4xl mx-auto mb-8"><label class="block text-xl font-semibold mb-3">Factor of Safety Threshold: 1.3</label><input min="0.8" max="2" step="0.01" class="w-full" type="range" value="1.3"></div><div class="bg-white rounded-2xl shadow-xl p-6 max-w-6xl mx-auto mb-12"><div class="recharts-responsive-container" style="width: 100%; height: 450px; min-width: 0px;"><div style="width: 0px; overflow-x: visible;"><div width="1088" height="450" class="recharts-wrapper" style="position: relative; cursor: default; width: 1088px; height: 450px;"><div xmlns="http://www.w3.org/1999/xhtml" tabindex="-1" class="recharts-tooltip-wrapper recharts-tooltip-wrapper-left recharts-tooltip-wrapper-bottom" style="visibility: visible; pointer-events: none; position: absolute; top: 0px; left: 0px; transition: transform 400ms; transform: translate(731.716px, 142px);"><div class="recharts-default-tooltip" role="status" aria-live="assertive" style="margin: 0px; padding: 10px; background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); white-space: nowrap;"><p class="recharts-tooltip-label" style="margin: 0px;">2/18/2026</p><ul class="recharts-tooltip-item-list" style="padding: 0px; margin: 0px;"><li class="recharts-tooltip-item" style="display: block; padding-top: 4px; padding-bottom: 4px; color: rgb(6, 95, 70);"><span class="recharts-tooltip-item-name">factorOfSafety</span><span class="recharts-tooltip-item-separator"> : </span><span class="recharts-tooltip-item-value">1.54</span><span class="recharts-tooltip-item-unit"></span></li></ul></div></div><svg role="application" tabindex="0" class="recharts-surface" width="1088" height="450" viewBox="0 0 1088 450" style="width: 100%; height: 100%; display: block;"><title></title><desc></desc><g tabindex="-1"><g class="recharts-cartesian-grid"><g class="recharts-cartesian-grid-horizontal"><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="65" y1="335" x2="1083" y2="335"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="65" y1="225" x2="1083" y2="225"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="65" y1="115" x2="1083" y2="115"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="65" y1="5" x2="1083" y2="5"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="65" y1="445" x2="1083" y2="445"></line></g><g class="recharts-cartesian-grid-vertical"><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="144.17777777777772" y1="5" x2="144.17777777777772" y2="445"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="234.66666666666663" y1="5" x2="234.66666666666663" y2="445"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="325.1555555555555" y1="5" x2="325.1555555555555" y2="445"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="404.3333333333333" y1="5" x2="404.3333333333333" y2="445"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="483.51111111111106" y1="5" x2="483.51111111111106" y2="445"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="562.6888888888889" y1="5" x2="562.6888888888889" y2="445"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="641.8666666666666" y1="5" x2="641.8666666666666" y2="445"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="721.0444444444445" y1="5" x2="721.0444444444445" y2="445"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="800.2222222222222" y1="5" x2="800.2222222222222" y2="445"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="879.4000000000001" y1="5" x2="879.4000000000001" y2="445"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="969.8888888888889" y1="5" x2="969.8888888888889" y2="445"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="1083" y1="5" x2="1083" y2="445"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="1018" height="440" x1="65" y1="5" x2="65" y2="445"></line></g></g></g><g tabindex="-1"></g><defs><clippath id="recharts1-clip"><rect x="65" y="5" height="440" width="1018"></rect></clippath></defs><g tabindex="-1"></g><g tabindex="-1"></g><g tabindex="-1"></g><g tabindex="-1"><g class="recharts-layer recharts-reference-line"><line y="1.3" stroke="red" stroke-dasharray="5 5" fill="none" fill-opacity="1" stroke-width="1" x1="65" y1="127.22222222222223" x2="1083" y2="127.22222222222223" class="recharts-reference-line-line"></line></g><g class="recharts-layer recharts-line"><path stroke="#065f46" stroke-width="3" fill="none" id="recharts-line-_r_0_" height="440" width="1018" class="recharts-curve recharts-line-curve" stroke-dasharray="4676.5439px 0.00004531250033323886px" d="M65,66.111C68.77,126,72.541,185.889,76.311,185.889C80.081,185.889,83.852,177.333,87.622,166.333C91.393,155.333,95.163,134.556,98.933,119.889C102.704,105.222,106.474,78.333,110.244,78.333C114.015,78.333,117.785,154.111,121.556,154.111C125.326,154.111,129.096,68.556,132.867,68.556C136.637,68.556,140.407,80.778,144.178,80.778C147.948,80.778,151.719,56.333,155.489,56.333C159.259,56.333,163.03,105.222,166.8,105.222C170.57,105.222,174.341,56.333,178.111,56.333C181.881,56.333,185.652,104.407,189.422,122.333C193.193,140.259,196.963,163.889,200.733,163.889C204.504,163.889,208.274,127.222,212.044,127.222C215.815,127.222,219.585,127.222,223.356,127.222C227.126,127.222,230.896,168.778,234.667,168.778C238.437,168.778,242.207,73.444,245.978,73.444C249.748,73.444,253.519,105.222,257.289,105.222C261.059,105.222,264.83,88.111,268.6,83.222C272.37,78.333,276.141,75.889,279.911,75.889C283.681,75.889,287.452,139.444,291.222,139.444C294.993,139.444,298.763,119.889,302.533,119.889C306.304,119.889,310.074,173.667,313.844,173.667C317.615,173.667,321.385,141.481,325.156,129.667C328.926,117.852,332.696,102.778,336.467,102.778C340.237,102.778,344.007,149.222,347.778,149.222C351.548,149.222,355.319,71,359.089,71C362.859,71,366.63,190.778,370.4,190.778C374.17,190.778,377.941,112.556,381.711,112.556C385.481,112.556,389.252,168.778,393.022,168.778C396.793,168.778,400.563,97.889,404.333,97.889C408.104,97.889,411.874,124.778,415.644,124.778C419.415,124.778,423.185,85.667,426.956,85.667C430.726,85.667,434.496,107.667,438.267,107.667C442.037,107.667,445.807,53.889,449.578,53.889C453.348,53.889,457.119,69.778,460.889,85.667C464.659,101.556,468.43,136.185,472.2,149.222C475.97,162.259,479.741,163.481,483.511,168.778C487.281,174.074,491.052,181,494.822,181C498.593,181,502.363,160.63,506.133,146.778C509.904,132.926,513.674,97.889,517.444,97.889C521.215,97.889,524.985,159,528.756,159C532.526,159,536.296,122.333,540.067,122.333C543.837,122.333,547.607,144.741,551.378,156.556C555.148,168.37,558.919,193.222,562.689,193.222C566.459,193.222,570.23,88.111,574,88.111C577.77,88.111,581.541,139.444,585.311,139.444C589.081,139.444,592.852,63.667,596.622,63.667C600.393,63.667,604.163,181,607.933,181C611.704,181,615.474,176.926,619.244,168.778C623.015,160.63,626.785,88.111,630.556,88.111C634.326,88.111,638.096,159,641.867,159C645.637,159,649.407,66.111,653.178,66.111C656.948,66.111,660.719,159,664.489,159C668.259,159,672.03,66.111,675.8,66.111C679.57,66.111,683.341,69.37,687.111,75.889C690.881,82.407,694.652,181,698.422,181C702.193,181,705.963,178.556,709.733,173.667C713.504,168.778,717.274,165.519,721.044,151.667C724.815,137.815,728.585,90.556,732.356,90.556C736.126,90.556,739.896,146.778,743.667,146.778C747.437,146.778,751.207,88.111,754.978,88.111C758.748,88.111,762.519,181,766.289,181C770.059,181,773.83,134.556,777.6,134.556C781.37,134.556,785.141,146.778,788.911,146.778C792.681,146.778,796.452,129.667,800.222,129.667C803.993,129.667,807.763,144.333,811.533,144.333C815.304,144.333,819.074,141.074,822.844,134.556C826.615,128.037,830.385,49,834.156,49C837.926,49,841.696,94.222,845.467,112.556C849.237,130.889,853.007,159,856.778,159C860.548,159,864.319,94.63,868.089,83.222C871.859,71.815,875.63,66.111,879.4,66.111C883.17,66.111,886.941,67.741,890.711,71C894.481,74.259,898.252,107.667,902.022,107.667C905.793,107.667,909.563,68.556,913.333,68.556C917.104,68.556,920.874,137,924.644,137C928.415,137,932.185,56.333,935.956,56.333C939.726,56.333,943.496,99.926,947.267,115C951.037,130.074,954.807,146.778,958.578,146.778C962.348,146.778,966.119,95.444,969.889,95.444C973.659,95.444,977.43,123.148,981.2,134.556C984.97,145.963,988.741,163.889,992.511,163.889C996.281,163.889,1000.052,142.704,1003.822,132.111C1007.593,121.519,1011.363,100.333,1015.133,100.333C1018.904,100.333,1022.674,181,1026.444,181C1030.215,181,1033.985,168.778,1037.756,159C1041.526,149.222,1045.296,122.333,1049.067,122.333C1052.837,122.333,1056.607,173.667,1060.378,173.667C1064.148,173.667,1067.919,110.926,1071.689,90.556C1075.459,70.185,1079.23,60.815,1083,51.444"></path></g></g><g tabindex="-1"><g class="recharts-layer recharts-cartesian-axis recharts-yAxis yAxis"><line angle="0" orientation="left" width="60" x="5" y="5" height="440" class="recharts-cartesian-axis-line" stroke="#666" fill="none" x1="65" y1="5" x2="65" y2="445"></line><g class="recharts-cartesian-axis-ticks recharts-yAxis-ticks"><g class="recharts-cartesian-axis-tick-lines recharts-yAxis-tick-lines"><g class="recharts-layer recharts-cartesian-axis-tick"><line angle="0" orientation="left" width="60" x="5" y="5" height="440" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="59" y1="335" x2="65" y2="335"></line></g><g class="recharts-layer recharts-cartesian-axis-tick"><line angle="0" orientation="left" width="60" x="5" y="5" height="440" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="59" y1="225" x2="65" y2="225"></line></g><g class="recharts-layer recharts-cartesian-axis-tick"><line angle="0" orientation="left" width="60" x="5" y="5" height="440" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="59" y1="115" x2="65" y2="115"></line></g><g class="recharts-layer recharts-cartesian-axis-tick"><line angle="0" orientation="left" width="60" x="5" y="5" height="440" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="59" y1="5" x2="65" y2="5"></line></g></g></g></g></g><g tabindex="-1"><g class="recharts-layer recharts-line-dots"><circle cx="64.99999999999994" cy="66.11111111111109" r="3" fill="#065f46"></circle><circle cx="76.31111111111106" cy="185.88888888888889" r="5" fill="red"></circle><circle cx="87.62222222222216" cy="166.33333333333334" r="5" fill="red"></circle><circle cx="98.93333333333328" cy="119.88888888888887" r="3" fill="#065f46"></circle><circle cx="110.24444444444438" cy="78.33333333333337" r="3" fill="#065f46"></circle><circle cx="121.5555555555555" cy="154.11111111111111" r="5" fill="red"></circle><circle cx="132.86666666666662" cy="68.55555555555557" r="3" fill="#065f46"></circle><circle cx="144.17777777777772" cy="80.7777777777778" r="3" fill="#065f46"></circle><circle cx="155.48888888888882" cy="56.33333333333334" r="3" fill="#065f46"></circle><circle cx="166.79999999999995" cy="105.22222222222226" r="3" fill="#065f46"></circle><circle cx="178.11111111111106" cy="56.33333333333334" r="3" fill="#065f46"></circle><circle cx="189.42222222222216" cy="122.33333333333331" r="3" fill="#065f46"></circle><circle cx="200.7333333333333" cy="163.8888888888889" r="5" fill="red"></circle><circle cx="212.0444444444444" cy="127.22222222222223" r="3" fill="#065f46"></circle><circle cx="223.3555555555555" cy="127.22222222222223" r="3" fill="#065f46"></circle><circle cx="234.66666666666663" cy="168.77777777777783" r="5" fill="red"></circle><circle cx="245.97777777777773" cy="73.44444444444446" r="3" fill="#065f46"></circle><circle cx="257.28888888888883" cy="105.22222222222226" r="3" fill="#065f46"></circle><circle cx="268.59999999999997" cy="83.22222222222224" r="3" fill="#065f46"></circle><circle cx="279.91111111111104" cy="75.88888888888889" r="3" fill="#065f46"></circle><circle cx="291.2222222222222" cy="139.44444444444446" r="5" fill="red"></circle><circle cx="302.5333333333333" cy="119.88888888888887" r="3" fill="#065f46"></circle><circle cx="313.84444444444443" cy="173.66666666666666" r="5" fill="red"></circle><circle cx="325.1555555555555" cy="129.66666666666666" r="5" fill="red"></circle><circle cx="336.46666666666664" cy="102.77777777777781" r="3" fill="#065f46"></circle><circle cx="347.7777777777777" cy="149.22222222222226" r="5" fill="red"></circle><circle cx="359.08888888888885" cy="71.00000000000001" r="3" fill="#065f46"></circle><circle cx="370.4" cy="190.77777777777774" r="5" fill="red"></circle><circle cx="381.71111111111105" cy="112.55555555555556" r="3" fill="#065f46"></circle><circle cx="393.0222222222222" cy="168.77777777777783" r="5" fill="red"></circle><circle cx="404.3333333333333" cy="97.8888888888889" r="3" fill="#065f46"></circle><circle cx="415.6444444444444" cy="124.77777777777779" r="3" fill="#065f46"></circle><circle cx="426.9555555555555" cy="85.66666666666667" r="3" fill="#065f46"></circle><circle cx="438.26666666666665" cy="107.66666666666669" r="3" fill="#065f46"></circle><circle cx="449.5777777777777" cy="53.88888888888886" r="3" fill="#065f46"></circle><circle cx="460.88888888888886" cy="85.66666666666667" r="3" fill="#065f46"></circle><circle cx="472.2" cy="149.22222222222226" r="5" fill="red"></circle><circle cx="483.51111111111106" cy="168.77777777777783" r="5" fill="red"></circle><circle cx="494.8222222222222" cy="181" r="5" fill="red"></circle><circle cx="506.1333333333333" cy="146.7777777777778" r="5" fill="red"></circle><circle cx="517.4444444444443" cy="97.8888888888889" r="3" fill="#065f46"></circle><circle cx="528.7555555555555" cy="159.00000000000003" r="5" fill="red"></circle><circle cx="540.0666666666666" cy="122.33333333333331" r="3" fill="#065f46"></circle><circle cx="551.3777777777777" cy="156.55555555555554" r="5" fill="red"></circle><circle cx="562.6888888888889" cy="193.22222222222223" r="5" fill="red"></circle><circle cx="574" cy="88.11111111111111" r="3" fill="#065f46"></circle><circle cx="585.3111111111111" cy="139.44444444444446" r="5" fill="red"></circle><circle cx="596.6222222222223" cy="63.66666666666666" r="3" fill="#065f46"></circle><circle cx="607.9333333333334" cy="181" r="5" fill="red"></circle><circle cx="619.2444444444445" cy="168.77777777777783" r="5" fill="red"></circle><circle cx="630.5555555555554" cy="88.11111111111111" r="3" fill="#065f46"></circle><circle cx="641.8666666666666" cy="159.00000000000003" r="5" fill="red"></circle><circle cx="653.1777777777777" cy="66.11111111111109" r="3" fill="#065f46"></circle><circle cx="664.4888888888888" cy="159.00000000000003" r="5" fill="red"></circle><circle cx="675.8" cy="66.11111111111109" r="3" fill="#065f46"></circle><circle cx="687.1111111111111" cy="75.88888888888889" r="3" fill="#065f46"></circle><circle cx="698.4222222222222" cy="181" r="5" fill="red"></circle><circle cx="709.7333333333333" cy="173.66666666666666" r="5" fill="red"></circle><circle cx="721.0444444444445" cy="151.66666666666669" r="5" fill="red"></circle><circle cx="732.3555555555556" cy="90.55555555555559" r="3" fill="#065f46"></circle><circle cx="743.6666666666667" cy="146.7777777777778" r="5" fill="red"></circle><circle cx="754.9777777777779" cy="88.11111111111111" r="3" fill="#065f46"></circle><circle cx="766.2888888888888" cy="181" r="5" fill="red"></circle><circle cx="777.5999999999999" cy="134.55555555555551" r="5" fill="red"></circle><circle cx="788.911111111111" cy="146.7777777777778" r="5" fill="red"></circle><circle cx="800.2222222222222" cy="129.66666666666666" r="5" fill="red"></circle><circle cx="811.5333333333333" cy="144.33333333333331" r="5" fill="red"></circle><circle cx="822.8444444444444" cy="134.55555555555551" r="5" fill="red"></circle><circle cx="834.1555555555556" cy="48.99999999999999" r="3" fill="#065f46"></circle><circle cx="845.4666666666667" cy="112.55555555555556" r="3" fill="#065f46"></circle><circle cx="856.7777777777778" cy="159.00000000000003" r="5" fill="red"></circle><circle cx="868.088888888889" cy="83.22222222222224" r="3" fill="#065f46"></circle><circle cx="879.4000000000001" cy="66.11111111111109" r="3" fill="#065f46"></circle><circle cx="890.711111111111" cy="71.00000000000001" r="3" fill="#065f46"></circle><circle cx="902.0222222222221" cy="107.66666666666669" r="3" fill="#065f46"></circle><circle cx="913.3333333333333" cy="68.55555555555557" r="3" fill="#065f46"></circle><circle cx="924.6444444444444" cy="137.00000000000003" r="5" fill="red"></circle><circle cx="935.9555555555555" cy="56.33333333333334" r="3" fill="#065f46"></circle><circle cx="947.2666666666667" cy="115" r="3" fill="#065f46"></circle><circle cx="958.5777777777778" cy="146.7777777777778" r="5" fill="red"></circle><circle cx="969.8888888888889" cy="95.44444444444447" r="3" fill="#065f46"></circle><circle cx="981.2" cy="134.55555555555551" r="5" fill="red"></circle><circle cx="992.5111111111112" cy="163.8888888888889" r="5" fill="red"></circle><circle cx="1003.8222222222223" cy="132.1111111111111" r="5" fill="red"></circle><circle cx="1015.1333333333334" cy="100.33333333333339" r="3" fill="#065f46"></circle><circle cx="1026.4444444444443" cy="181" r="5" fill="red"></circle><circle cx="1037.7555555555555" cy="159.00000000000003" r="5" fill="red"></circle><circle cx="1049.0666666666666" cy="122.33333333333331" r="3" fill="#065f46"></circle><circle cx="1060.3777777777777" cy="173.66666666666666" r="5" fill="red"></circle><circle cx="1071.6888888888889" cy="90.55555555555559" r="3" fill="#065f46"></circle><circle cx="1083" cy="51.44444444444442" r="3" fill="#065f46"></circle></g></g><g tabindex="-1"></g><g tabindex="-1"><path stroke="#ccc" pointer-events="none" width="1018" height="440" class="recharts-curve recharts-tooltip-cursor" d="M913.333,5L913.333,445"></path></g><g tabindex="-1"><g class="recharts-layer recharts-active-dot"><circle cx="913.3333333333333" cy="68.55555555555557" r="4" fill="#065f46" stroke-width="2" stroke="#fff" class="recharts-dot"></circle></g></g><g tabindex="-1"><g class="recharts-cartesian-axis-tick-labels recharts-yAxis-tick-labels"><g class="recharts-layer recharts-cartesian-axis-tick-label"><text orientation="left" width="60" height="440" stroke="none" x="57" y="335" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="57" dy="0.355em">0.45</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick-label"><text orientation="left" width="60" height="440" stroke="none" x="57" y="225" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="57" dy="0.355em">0.9</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick-label"><text orientation="left" width="60" height="440" stroke="none" x="57" y="115" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="57" dy="0.355em">1.35</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick-label"><text orientation="left" width="60" height="440" stroke="none" x="57" y="12" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="57" dy="0.355em">1.8</tspan></text></g></g></g></svg></div></div></div></div><div class="bg-white rounded-2xl shadow-lg p-6 max-w-4xl mx-auto mb-12"><h2 class="text-2xl font-bold mb-6 text-green-900">Impact Calculator</h2><div class="grid md:grid-cols-2 gap-6"><div><label class="block font-medium mb-2">Population</label><input class="w-full border p-3 rounded-xl" type="number" value="1000"></div><div><label class="block font-medium mb-2">Daily Usage per Capita</label><input class="w-full border p-3 rounded-xl" type="number" value="150"></div></div><div class="mt-6 text-2xl font-bold text-blue-800">Total Daily Load: 150,000 units</div></div><div class="max-w-4xl mx-auto bg-green-100 border-l-4 border-green-700 p-6 rounded-xl shadow"><h3 class="text-xl font-semibold mb-2">AI Interpretation</h3><p>As rainfall increases, pore water pressure rises, reducing effective stress within the soil mass. This reduction lowers shear strength and decreases the Factor of Safety. When the Factor of Safety drops below the selected threshold, instability risk increases significantly.</p></div><footer class="text-center mt-16 text-gray-600">Amelia Klapprodt — Spring 2026</footer></div></div>
+    <script type="module" src="./CIVE580 Midterm_files/main.jsx"></script>
+  
+
+<span id="recharts_measurement_span" aria-hidden="true" style="position: absolute; top: -20000px; left: 0px; padding: 0px; margin: 0px; border: none; white-space: pre; font-size: 16px; letter-spacing: normal;">0</span></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
